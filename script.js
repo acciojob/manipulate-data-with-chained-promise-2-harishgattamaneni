@@ -8,7 +8,7 @@ function myPromise(){
 
 myPromise().then((data)=>{
     const evenNumbers=data.filter((Element,i)=>{
-        if(Element%2==1){
+        if(Element%2==0){
             return true
         }
     })
